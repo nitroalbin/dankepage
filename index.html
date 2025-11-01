@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Termin Bestätigt</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            orange: {
+              50: '#fff7ed',
+              300: '#fdba74',
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-white font-sans text-gray-900">
+  <!-- Hero Section -->
+  <div class="px-6 py-12 sm:py-16">
+    <div class="max-w-2xl mx-auto text-center">
+      <h1 class="text-3xl sm:text-4xl font-bold mb-6">🎉 Glückwunsch! Dein Termin ist bestätigt!</h1>
+      <p class="text-lg sm:text-xl mb-4">Ich habe dir Bestätigung per E-Mail und SMS geschickt.</p>
+      <p class="text-lg sm:text-xl font-medium text-orange-600">Bitte trage den Termin jetzt sofort in deinen Kalender ein! 😊</p>
+    </div>
+  </div>
+
+  <!-- Hinweis & Vorbereitung -->
+  <div class="px-6 py-8 sm:py-12 bg-gray-50">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center">Hinweis & Vorbereitung</h2>
+      <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+        <h3 class="text-xl font-semibold mb-4">Termin-Details:</h3>
+        <p class="text-lg mb-4">Danke, dass du dein kostenloses Erstgespräch gebucht hast! Wir lieben es, mit ambitionierten Gym-Besitzern wie dir zu sprechen.</p>
+        <div class="bg-orange-50 border-l-4 border-orange-500 p-4 rounded-r">
+          <p class="text-gray-800">Bitte nimm das Gespräch in einem ruhigen Raum entgegen – nicht im Auto, am Flughafen oder an anderen lauten Orten. So können wir uns voll auf deine Ziele konzentrieren.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Persönliche Signatur -->
+  <div class="px-6 py-12">
+    <div class="max-w-2xl mx-auto">
+      <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex flex-col sm:flex-row items-center gap-6">
+        <div class="flex-shrink-0">
+          <img src="images/albin.jpg" alt="Albin Salihu" class="rounded-full w-24 h-24 sm:w-32 sm:h-32 object-cover border-4 border-orange-500" />
+        </div>
+        <div class="flex-grow">
+          <p class="text-lg mb-6 italic">"Ich freue mich darauf, dir zu helfen, dein Gym zu füllen, mehr Mitglieder zu gewinnen und endlich mehr Freiheit und weniger Stress zu haben!"</p>
+          <p class="mb-4">Bei Fragen kannst du mich jederzeit persönlich erreichen:</p>
+          <a href="mailto:info@nitroagentur.de" class="text-orange-600 font-semibold hover:text-orange-700">info@nitroagentur.de</a>
+          <p class="mt-6 pt-6 border-t border-gray-200 font-medium">— Albin Salihu, Gründer der nitroagentur</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Case Study -->
+  <div class="px-6 py-12 bg-gray-50">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center">Erfolgsgeschichte</h2>
+      <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-100 flex flex-col sm:flex-row items-center gap-6">
+        <div class="flex-shrink-0">
+          <img src="images/mario.jpg" alt="Mario aus Krefeld" class="rounded-lg w-24 h-24 sm:w-32 sm:h-32 object-cover border-2 border-orange-300" />
+        </div>
+        <div class="flex-grow">
+          <h3 class="text-xl font-semibold mb-4 text-orange-600">Mario aus Krefeld</h3>
+          <div class="space-y-3 text-lg">
+            <p>Mario betreibt ein Gym in Krefeld. Vorher hatte er ständig Stress, weil zu wenige Mitglieder kamen.</p>
+            <p><span class="font-semibold">Innerhalb von nur 30 Tagen</span> hat unsere Agentur ihm <span class="font-semibold">21 neue Termine</span> gebracht.</p>
+            <p>Davon sind <span class="font-semibold">15 Leute Mitglied geworden</span>!</p>
+            <p>Heute kann Mario endlich durchatmen, hat mehr Freizeit und muss sich keine Sorgen mehr um neue Mitglieder machen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
